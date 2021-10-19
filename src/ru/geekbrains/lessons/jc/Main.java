@@ -6,6 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+        /* 3. В методе main() вызвать полученный метод, обработать возможные исключения MyArraySizeException и
+            MyArrayDataException и вывести результат расчета.
+         */
         try {
             String [][] testArray0 = new String[][]{{"1","2","3","4"},{"5","6","7","8"},
                     {"1","2","3","4"},{"9","10","11","12"}};
